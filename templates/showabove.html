@@ -1,0 +1,91 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Probability</title>
+      <style>
+          body {
+            background-image: url('/static/showabove_bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          ::-webkit-scrollbar {
+            width: 15px;
+            }
+            ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey; 
+            border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+            background: grey; 
+            border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+            background:rgb(95, 93, 93); 
+            }
+
+          #probability {
+            border: 2px solid black;
+            margin-top: 100px;
+            /* margin-bottom: 100px; */
+            margin-right: 290px;
+            margin-left: 290px;
+            background-color: lightblue;
+            background-size: 30px 10px;
+          }
+
+          .information {
+            /* background-color: tomato; */
+            /* color: white; */
+            /* border: 2px solid black; */
+            margin-top: -130px;
+            /* margin-bottom: 200px; */
+            margin-right:43px;
+            margin-left: 43px;
+            /* padding: 1px; */
+          }
+          .img{
+            position: relative;
+            /* float: none; */
+            /* z-index: -1; */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 180px;
+            height: 300px;
+            /* width: 2px; */
+            /* margin-left: 700px; */
+          }
+          li,p{
+            font-size: 21px;
+            margin-left: 50px;
+            margin-right: 50px;
+          }
+
+      </style>
+  </head>
+
+  <body>
+    <div id= "probability">
+      <h1 style="text-align: center; font-size: 40px;" ><b>Probability of Covid Infection is {{inf}}%.</b></h1>
+      <img class="img" src="/static/covid_above.gif"  >
+
+      <div class="information">
+        <h2 style="font-size: 30px; text-align: center; " ><b>Steps to help prevent the spread of COVID-19 if you are sick: </b></h2>
+        <ul>
+          <li><h3>Stay home except to get medical care<h3></li>
+            <p>Most people with COVID-19 have mild illness and can recover at home without medical care. Do not leave your home, except to get medical care. Do not visit public areas.</p>
+  
+          <li><h3>Separate yourself from other people</h3></li>
+            <p>As much as possible, stay in a specific room and away from other people and pets in your home. If possible, you should use a separate bathroom. If you need to be around other people or animals in or outside of the home, wear a mask.</p>
+  
+          <li ><h3>Cover your coughs and sneezes</h3></li>
+            <p style="margin-bottom: 90px;">Cover your mouth and nose with a tissue when you cough or sneeze.
+            Throw away used tissues in a lined trash can.
+            Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not available, clean your hands with an alcohol-based hand sanitizer that contains at least 60% alcohol.</p>
+        </ul>
+      </div>
+      </div>
+  </body>
+</html>

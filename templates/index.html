@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid Project</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<style>
+    ::-webkit-scrollbar {
+    width: 15px;
+    }
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background:rgb(95, 93, 93); 
+    }
+    *{
+        margin: 0px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    /* start */
+    body{
+        font-family: 'Quicksand', sans-serif;
+        color: hsl(0, 100%, 4%);
+        background-color: #ecfcfd;
+        height: 1700px;
+
+        /* padding-top: 5em; */
+        /* display: flex; */
+        justify-content: center;
+    }
+    
+
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden; 
+      /* Ensures the content is not revealed until the animation */
+      /* border-right: 5px solid black;  */
+
+      /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      /* letter-spacing: .1em;  */
+      /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: black }
+
+    }
+
+    .main{
+        position: relative;
+        /* background-image: url("back.jpg"); */
+        width: 100%;
+        /* height: 400px; */
+        /* background-color: #758BF5; */
+        
+        padding-bottom: 120px;
+        /* opacity: 1; */
+        /* padding-top: 120px; */
+    }
+    /* last */
+
+
+
+    h1{
+      font-family: 'Times New Roman', Times, serif;
+        /* color: white; */
+        
+        /* padding-left: 1px; */
+        /* padding-top: 20px; */
+        font-size: 60px;
+    }
+    #common{
+      position: absolute;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+			height: 45%;
+			width: 280px;
+      border-radius: 10px;
+			background-color: white;
+      padding-top: 25px;
+      padding-left: 10px;
+    }
+    .Visualization{
+			left:20%;
+      transform: translate(-20%,-70px);
+    }
+    .predict{
+      left: 50%;
+      transform: translate(-50%,-70px);
+    }
+    .Information{
+      left:80%;
+      transform: translate(-80%,-70px);
+    }
+    
+    #common2{
+      position: fixed;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        height: 20%;
+        width: 200px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    h2{
+        font-size: 28px;
+        /* font-family:Arial, Helvetica, sans-serif ; */
+        font-family: Times;
+        margin: 10px 0 1px 10px;
+        /* font-weight: bold; */
+    }
+
+    .formDiv{
+			position: absolute;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			height: 95%;
+			width: 680px;
+			border-radius: 10px;
+			background-color: white;
+      left: 50%;
+      transform: translate(-50%, -50%);
+			top: 1200px;
+			padding: 20px;
+		}
+    label {
+      padding: 12px 12px 12px 0px;
+      display: inline-block;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .first{
+      margin-left: 20px;
+      float: left;
+    width: 25%;
+    margin-top: 22px;
+    font-size: 19px;
+    }
+    .second{
+      float: left;
+      width: 65%;
+      margin-top: 22px;
+    }
+    input[type=text],select{
+      width: 100%;
+      padding: 12px;
+      border: 3px solid #ccc;
+      border-radius: 4px;
+      transition: 0.8s;
+      outline: none;
+    }
+    input[type=text]:focus{
+      border: 3px solid #555;
+    }
+    /* button */
+    .button
+    {
+      display: inline-block;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      font-size: 19px;
+      margin-top: 90px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .button span{
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    .button span:after{
+      content: '\00bb';      
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    .button:hover span{
+      padding-right: 25px;
+    }
+    .button:hover span:after{
+      opacity: 1;
+      right: 0;
+    }
+    /* link */
+    a:link {
+      text-decoration: none;
+      color: darkturquoise;
+    }
+    a:visited {
+      text-decoration: none;
+      color: deepskyblue;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: black;
+    }
+    a:active {
+      text-decoration: underline;
+      color: blue;
+    }
+    /* image */
+    .img1{
+      height: 130px;
+      width: 170px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      /* left: 50%; */
+      /* transform: translate(-50%, -50%); */
+
+    }
+    .img2 {
+      height: 130px;
+      width: 170px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      /* margin-top: 1px;      */
+    }
+    .img3{
+      height: 130px;
+      width: 170px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      /* margin-top: 1px;      */
+    }
+    /* text */
+    p{
+      margin: 12px 20px 10px 15px;
+      font-family:Arial, Helvetica, sans-serif ;
+      font-size: 17px;
+    }
+
+    /* virus  */
+    .mainBody{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 5;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+        opacity: 0.95;
+        /* margin-top: 100px;; */
+        /* margin-left: 600px; */
+    }
+    #virus-1{
+        top: 50%;
+        left: 45%;
+        transform: scale(-0.55, 0.55) rotate(15deg);
+        animation-name: virusMove1;
+        animation-duration: 2.5s;
+        margin-top: 100px;;
+        margin-left: 600px;
+    }
+    .vBody{
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: inset -20px -15px 7px 1px rgba(0, 0, 0, 0.27);
+      z-index: 2;
+  }
+    .vcolor1,
+    .vcolor1 ~ .vWings,
+    .vcolor1 ~ .vWings:before,
+    .vcolor1 ~ .vWings:after{
+      background-color: #474749;    
+  }
+  .eye{
+    width: 20px;
+    height: 25px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    /* overflow: hidden; */
+}
+.eye:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+.eye-left{
+    transform: translate(-100%, -100%);
+}
+.eye-left:before{
+    right: 0;
+}
+.eye-right{
+    transform: translate(100%, -100%);
+}
+.eye-right:before{
+    left: 0;
+}
+.eyebrow{
+    width: 25px;
+    height: 5px;
+    background-color: #333;
+    position: absolute;
+    top: 33%;
+    z-index: 4;
+}
+.eyebrow-left{
+    left: 38%;
+    transform: rotate(45deg);
+}
+.eyebrow-right{
+    left: 58%;
+    transform: rotate(-45deg);
+}
+.mouth{
+    width: 45px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translateX(-50%) rotate(7deg);
+    border-radius: 9px;
+}
+.vWings{
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vWings:before,
+.vWings:after
+{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  /* top: 0; */
+  left: 50%;
+  transform: translate(-52%, -50%);
+}
+.vWings:after{
+  top: 100%;
+}
+.tentacle-2{
+  transform: translate(-50%, -50%) rotate(20deg);
+}
+.tentacle-3{
+  transform: translate(-50%, -50%) rotate(40deg);
+}
+.tentacle-4{
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+.tentacle-5{
+  transform: translate(-50%, -50%) rotate(79deg);
+}
+.tentacle-6{
+  transform: translate(-50%, -50%) rotate(96deg);
+}
+.tentacle-7{
+  transform: translate(-50%, -50%) rotate(115deg);
+}
+.tentacle-8{
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.tentacle-9{
+  transform: translate(-50%, -50%) rotate(158deg);
+}
+
+@keyframes virusMove1 {
+    0%{
+        transform: scale(-0.65, 0.65) rotate(15deg);
+    }
+    50%{
+        transform: scale(-0.6, 0.6) rotate(15deg);
+    }
+    100%{
+        transform: scale(-0.65, 0.65) rotate(15deg);
+    }
+}
+#virus-2{
+  top: 60%;
+  left: 8%;
+  transform: scale(0.22, 0.22) rotate(-25deg);
+  animation-name: virusMove2;
+  animation-duration: 14.4s;
+  margin-right: 6200px;
+}
+@keyframes virusMove2 {
+  0%{
+      transform: translate(0,0) scale(0.52, 0.52) rotate(-15deg);
+  }
+  50%{
+      transform: translate(199px, 800px) scale(0.22, 0.22) rotate(-13deg);
+  }
+  100%{
+      transform: translate(0,0) scale(0.52, 0.52) rotate(-15deg);
+  }
+}
+.vColor2,
+.vColor2 ~ .vWings,
+.vColor2 ~ .vWings:before,
+.vColor2 ~ .vWings:after{
+    background-color: #4235b4;
+}
+    
+#virus-3{
+  top: 800px;
+  right: 15%;
+  transform: scale(0.42, 0.42) rotate(-10deg);
+  animation-name: virusMove3;
+  animation-duration: 9s;
+}
+@keyframes virusMove3 {
+  0%{
+      transform: translate(0,0) scale(0.42, 0.42) rotate(-10deg);
+  }
+  50%{
+      transform: translate(-222px, -130px) scale(0.92, 0.82) rotate(-10deg);
+  }
+  100%{
+      transform: translate(0,0) scale(0.42, 0.42) rotate(-10deg);
+  }
+}
+
+#virus-4{
+  top: 80%;
+  left: 35%;
+  transform: scale(-0.3, 0.3) rotate(45deg);
+  animation-name: virusMove4;
+  animation-duration: 8s;
+}
+
+@keyframes virusMove4 {
+  0%{
+      transform: translate(0,0) scale(-0.3, 0.3) rotate(15deg);
+  }
+  50%{
+      transform: translate(-9px, -8px) scale(-0.8, 0.7) rotate(20deg);
+  }
+  100%{
+      transform: translate(0,0) scale(-0.3, 0.3) rotate(15deg);
+  }
+}
+
+.vColor3,
+.vColor3 ~ .vWings,
+.vColor3 ~ .vWings:before,
+.vColor3 ~ .vWings:after{
+    background-color: #b5b5db;
+}
+	
+	</style> 
+</head>
+
+<body>
+
+	<div class="main">
+    <img src="/static/background.jpg" style="position: absolute; z-index: -1; height: 430px; width: 1521px ;">
+		<div class="typewriter">
+      <h1 style="text-align: center; font-size: 54px;  padding-top: 120px; color: white; text-shadow: 2px 1px white  " >
+        Covid-19 Prediction & Visualization</h1>
+    </div>
+	</div>
+<div class="Visualization" id="common">
+    <img src = "/static/covid_globe.gif" alt= "map" class="img1" style="float: none">
+    <h2><a href="/templates/map.html" target="_blank">Covid Visualization</a></h2>
+    <p>Display a world map with markers depicting 
+    total number of confirmed cases and the casualties reported. </p>
+  </div>
+
+  <div class="predict" id="common">
+		<img src = "/static/covid_pred.gif" alt= "prediction" class="img2" style="float: none">
+    <h2><a href="#open">Covid Prediction</a></h2>
+    <p>Fill out a simple form and get to know the probability of contracting the virus! </p>
+	</div>
+    
+  <div class="Information" id="common">
+    <img src = "/static/covid_info.gif" alt= "Information" class="img3" style="float: none">
+		<h2><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">Covid Information</a></h2>
+    <p>Click here to know more about prevention and care.</p>
+	</div>
+
+  <!-- virus -->
+  <div class="mainBody" id="virus-1">
+    <div class="vBody vcolor1">
+      <div class="eye eye-left"></div>
+      <div class="eye eye-right"></div>
+      <div class="eyebrow eyebrow-left"></div>
+      <div class="eyebrow eyebrow-right"></div>
+      <div class="mouth"></div>
+    </div>
+    <div class="vWings"></div>
+    <div class="vWings tentacle-2"></div>
+    <div class="vWings tentacle-3"></div>
+    <div class="vWings tentacle-4"></div>
+    <div class="vWings tentacle-5"></div>
+    <div class="vWings tentacle-6"></div>
+    <div class="vWings tentacle-7"></div>
+    <div class="vWings tentacle-8"></div>
+    <div class="vWings tentacle-9"></div>
+  </div>
+  <div class="mainBody" id="virus-2">
+    <div class="vBody vColor2">
+      <div class="eye eye-left"></div>
+      <div class="eye eye-right"></div>
+      <div class="eyebrow eyebrow-left"></div>
+      <div class="eyebrow eyebrow-right"></div>
+      <div class="mouth"></div>
+    </div>
+    <div class="vWings"></div>
+    <div class="vWings tentacle-2"></div>
+    <div class="vWings tentacle-3"></div>
+    <div class="vWings tentacle-4"></div>
+    <div class="vWings tentacle-5"></div>
+    <div class="vWings tentacle-6"></div>
+    <div class="vWings tentacle-7"></div>
+    <div class="vWings tentacle-8"></div>
+    <div class="vWings tentacle-9"></div>
+  </div>
+  <div class="mainBody" id="virus-3">
+    <div class="vBody vColor2">
+      <div class="eye eye-left"></div>
+      <div class="eye eye-right"></div>
+      <div class="eyebrow eyebrow-left"></div>
+      <div class="eyebrow eyebrow-right"></div>
+      <div class="mouth"></div>
+    </div>
+    <div class="vWings"></div>
+    <div class="vWings tentacle-2"></div>
+    <div class="vWings tentacle-3"></div>
+    <div class="vWings tentacle-4"></div>
+    <div class="vWings tentacle-5"></div>
+    <div class="vWings tentacle-6"></div>
+    <div class="vWings tentacle-7"></div>
+    <div class="vWings tentacle-8"></div>
+    <div class="vWings tentacle-9"></div>
+  </div>
+  
+  <div class="mainBody " id="virus-4">
+    <div class="vBody vColor3 ">
+      <div class="eye eye-left"></div>
+      <div class="eye eye-right"></div>
+      <div class="eyebrow eyebrow-left"></div>
+      <div class="eyebrow eyebrow-right"></div>
+      <div class="mouth"></div>
+    </div>
+    <div class="vWings"></div>
+    <div class="vWings tentacle-2"></div>
+    <div class="vWings tentacle-3"></div>
+    <div class="vWings tentacle-4"></div>
+    <div class="vWings tentacle-5"></div>
+    <div class="vWings tentacle-6"></div>
+    <div class="vWings tentacle-7"></div>
+    <div class="vWings tentacle-8"></div>
+    <div class="vWings tentacle-9"></div>
+  </div>
+
+  <!-- form -->
+  <div id="open" class="formDiv">
+      <p style="font-size: 38px; text-align: center;margin-top: 40px;margin-bottom: 40px">Coronavirus Probability Detector</p>
+      <form action="/" method="POST">
+        <div class="row">
+          <div class="first" style="margin-top: 15px">
+            <label for="fever">Body Temperature</label>
+          </div>
+          <div class="second">
+            <input type="text" class="form-control" id="fever" name="fever" placeholder="Enter Fever Value" autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="first">
+            <label for="age">Age</label>
+          </div>
+          <div class="second">
+            <input type="text" class="form-control" id="age" name="age" placeholder="Enter you Age" autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="first">
+            <label for="pain">Body Pain</label>
+          </div>
+          <div class="second">
+            <select class="form-control custom-select" name="pain" id="pain" autocomplete="off" required>
+            <option value="0">No Pain</option>
+            <option value="1">Severe Pain</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="first">
+            <label for="runnyNose">Runny Nose</label>
+          </div>
+          <div class="second">
+            <select class="form-control custom-select" name="runnyNose" id="runnyNose" required>
+              <option value="0">Yes</option>
+              <option value="1">No</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="first" style="margin-top: 16px;">
+            <label for="diffBreath">Breathing Difficulty</label>
+          </div>
+          <div class="second">
+            <select class="form-control custom-select" name="diffBreath" id="diffBreath" required>
+              <option value="-1">No Difficulty</option>
+              <option value="0">Little Difficulty</option>
+              <option value="1">Severe Difficulty</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="button" style="vertical-align: middle"><span>Submit</span></button>
+
+      </form>
+  </div>  
+	
+</body>
+</html>

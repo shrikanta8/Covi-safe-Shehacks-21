@@ -1,0 +1,1922 @@
+{
+  "data":[
+ {
+   "Region": " Afghanistan",
+   "Lat": 33.93911,
+   "Long": 67.709953,
+   "deaths": 2454,
+   "confirmed": 55959
+ },
+ {
+   "Region": " Albania",
+   "Lat": 41.1533,
+   "Long": 20.1683,
+   "deaths": 2018,
+   "confirmed": 116123
+ },
+ {
+   "Region": " Algeria",
+   "Lat": 28.0339,
+   "Long": 1.6596,
+   "deaths": 3031,
+   "confirmed": 115008
+ },
+ {
+   "Region": " Andorra",
+   "Lat": 42.5063,
+   "Long": 1.5218,
+   "deaths": 112,
+   "confirmed": 11199
+ },
+ {
+   "Region": " Angola",
+   "Lat": -11.2027,
+   "Long": 17.8739,
+   "deaths": 519,
+   "confirmed": 21265
+ },
+ {
+   "Region": " Antigua and Barbuda",
+   "Lat": 17.0608,
+   "Long": -61.7964,
+   "deaths": 25,
+   "confirmed": 945
+ },
+ {
+   "Region": " Argentina",
+   "Lat": -38.4161,
+   "Long": -63.6167,
+   "deaths": 53578,
+   "confirmed": 2185747
+ },
+ {
+   "Region": " Armenia",
+   "Lat": 40.0691,
+   "Long": 45.0382,
+   "deaths": 3243,
+   "confirmed": 177104
+ },
+ {
+   "Region": "Australian Capital Territory Australia",
+   "Lat": -35.4735,
+   "Long": 149.0124,
+   "deaths": 3,
+   "confirmed": 123
+ },
+ {
+   "Region": "New South Wales Australia",
+   "Lat": -33.8688,
+   "Long": 151.2093,
+   "deaths": 54,
+   "confirmed": 5234
+ },
+ {
+   "Region": "Northern Territory Australia",
+   "Lat": -12.4634,
+   "Long": 130.8456,
+   "deaths": 0,
+   "confirmed": 105
+ },
+ {
+   "Region": "Queensland Australia",
+   "Lat": -27.4698,
+   "Long": 153.0251,
+   "deaths": 6,
+   "confirmed": 1379
+ },
+ {
+   "Region": "South Australia Australia",
+   "Lat": -34.9285,
+   "Long": 138.6007,
+   "deaths": 4,
+   "confirmed": 631
+ },
+ {
+   "Region": "Tasmania Australia",
+   "Lat": -42.8821,
+   "Long": 147.3272,
+   "deaths": 13,
+   "confirmed": 234
+ },
+ {
+   "Region": "Victoria Australia",
+   "Lat": -37.8136,
+   "Long": 144.9631,
+   "deaths": 820,
+   "confirmed": 20483
+ },
+ {
+   "Region": "Western Australia Australia",
+   "Lat": -31.9505,
+   "Long": 115.8605,
+   "deaths": 9,
+   "confirmed": 923
+ },
+ {
+   "Region": " Austria",
+   "Lat": 47.5162,
+   "Long": 14.5501,
+   "deaths": 8831,
+   "confirmed": 488042
+ },
+ {
+   "Region": " Azerbaijan",
+   "Lat": 40.1431,
+   "Long": 47.5769,
+   "deaths": 3268,
+   "confirmed": 238959
+ },
+ {
+   "Region": " Bahamas",
+   "Lat": 25.025885,
+   "Long": -78.035889,
+   "deaths": 185,
+   "confirmed": 8658
+ },
+ {
+   "Region": " Bahrain",
+   "Lat": 26.0275,
+   "Long": 50.55,
+   "deaths": 480,
+   "confirmed": 129825
+ },
+ {
+   "Region": " Bangladesh",
+   "Lat": 23.685,
+   "Long": 90.3563,
+   "deaths": 8515,
+   "confirmed": 555222
+ },
+ {
+   "Region": " Barbados",
+   "Lat": 13.1939,
+   "Long": -59.5432,
+   "deaths": 37,
+   "confirmed": 3391
+ },
+ {
+   "Region": " Belarus",
+   "Lat": 53.7098,
+   "Long": 27.9534,
+   "deaths": 2078,
+   "confirmed": 300146
+ },
+ {
+   "Region": " Belgium",
+   "Lat": 50.8333,
+   "Long": 4.469936,
+   "deaths": 22397,
+   "confirmed": 801723
+ },
+ {
+   "Region": " Belize",
+   "Lat": 17.1899,
+   "Long": -88.4976,
+   "deaths": 316,
+   "confirmed": 12370
+ },
+ {
+   "Region": " Benin",
+   "Lat": 9.3077,
+   "Long": 2.3158,
+   "deaths": 81,
+   "confirmed": 6501
+ },
+ {
+   "Region": " Bhutan",
+   "Lat": 27.5142,
+   "Long": 90.4336,
+   "deaths": 1,
+   "confirmed": 868
+ },
+ {
+   "Region": " Bolivia",
+   "Lat": -16.2902,
+   "Long": -63.5887,
+   "deaths": 11930,
+   "confirmed": 258324
+ },
+ {
+   "Region": " Bosnia and Herzegovina",
+   "Lat": 43.9159,
+   "Long": 17.6791,
+   "deaths": 5446,
+   "confirmed": 142160
+ },
+ {
+   "Region": " Botswana",
+   "Lat": -22.3285,
+   "Long": 24.6849,
+   "deaths": 424,
+   "confirmed": 34098
+ },
+ {
+   "Region": " Brazil",
+   "Lat": -14.235,
+   "Long": -51.9253,
+   "deaths": 275105,
+   "confirmed": 11363380
+ },
+ {
+   "Region": " Brunei",
+   "Lat": 4.5353,
+   "Long": 114.7277,
+   "deaths": 3,
+   "confirmed": 192
+ },
+ {
+   "Region": " Bulgaria",
+   "Lat": 42.7339,
+   "Long": 25.4858,
+   "deaths": 11196,
+   "confirmed": 275859
+ },
+ {
+   "Region": " Burkina Faso",
+   "Lat": 12.2383,
+   "Long": -1.5616,
+   "deaths": 144,
+   "confirmed": 12305
+ },
+ {
+   "Region": " Burma",
+   "Lat": 21.9162,
+   "Long": 95.956,
+   "deaths": 3201,
+   "confirmed": 142122
+ },
+ {
+   "Region": " Burundi",
+   "Lat": -3.3731,
+   "Long": 29.9189,
+   "deaths": 3,
+   "confirmed": 2420
+ },
+ {
+   "Region": " Cabo Verde",
+   "Lat": 16.5388,
+   "Long": -23.0418,
+   "deaths": 155,
+   "confirmed": 15986
+ },
+ {
+   "Region": " Cambodia",
+   "Lat": 11.55,
+   "Long": 104.9167,
+   "deaths": 1,
+   "confirmed": 1264
+ },
+ {
+   "Region": " Cameroon",
+   "Lat": 3.848,
+   "Long": 11.5021,
+   "deaths": 601,
+   "confirmed": 40622
+ },
+ {
+   "Region": "Alberta Canada",
+   "Lat": 53.9333,
+   "Long": -116.5765,
+   "deaths": 1935,
+   "confirmed": 137562
+ },
+ {
+   "Region": "British Columbia Canada",
+   "Lat": 53.7267,
+   "Long": -127.6476,
+   "deaths": 1397,
+   "confirmed": 86867
+ },
+ {
+   "Region": "Diamond Princess Canada",
+   "Lat": 0,
+   "Long": 0,
+   "deaths": 1,
+   "confirmed": 0
+ },
+ {
+   "Region": "Grand Princess Canada",
+   "Lat": 0,
+   "Long": 0,
+   "deaths": 0,
+   "confirmed": 13
+ },
+ {
+   "Region": "Manitoba Canada",
+   "Lat": 53.7609,
+   "Long": -98.8139,
+   "deaths": 912,
+   "confirmed": 32607
+ },
+ {
+   "Region": "New Brunswick Canada",
+   "Lat": 46.5653,
+   "Long": -66.4619,
+   "deaths": 30,
+   "confirmed": 1465
+ },
+ {
+   "Region": "Newfoundland and Labrador Canada",
+   "Lat": 53.1355,
+   "Long": -57.6604,
+   "deaths": 6,
+   "confirmed": 1012
+ },
+ {
+   "Region": "Northwest Territories Canada",
+   "Lat": 64.8255,
+   "Long": -124.8457,
+   "deaths": 0,
+   "confirmed": 47
+ },
+ {
+   "Region": "Nova Scotia Canada",
+   "Lat": 44.682,
+   "Long": -63.7443,
+   "deaths": 65,
+   "confirmed": 1666
+ },
+ {
+   "Region": "Nunavut Canada",
+   "Lat": 70.2998,
+   "Long": -83.1076,
+   "deaths": 1,
+   "confirmed": 381
+ },
+ {
+   "Region": "Ontario Canada",
+   "Lat": 51.2538,
+   "Long": -85.3232,
+   "deaths": 7119,
+   "confirmed": 320494
+ },
+ {
+   "Region": "Prince Edward Island Canada",
+   "Lat": 46.5107,
+   "Long": -63.4168,
+   "deaths": 0,
+   "confirmed": 143
+ },
+ {
+   "Region": "Quebec Canada",
+   "Lat": 52.9399,
+   "Long": -73.5491,
+   "deaths": 10526,
+   "confirmed": 296143
+ },
+ {
+   "Region": "Repatriated Travellers Canada",
+   "Lat": null,
+   "Long": null,
+   "deaths": 0,
+   "confirmed": 13
+ },
+ {
+   "Region": "Saskatchewan Canada",
+   "Lat": 52.9399,
+   "Long": -106.4509,
+   "deaths": 404,
+   "confirmed": 30369
+ },
+ {
+   "Region": "Yukon Canada",
+   "Lat": 64.2823,
+   "Long": -135,
+   "deaths": 1,
+   "confirmed": 72
+ },
+ {
+   "Region": " Central African Republic",
+   "Lat": 6.6111,
+   "Long": 20.9394,
+   "deaths": 63,
+   "confirmed": 5023
+ },
+ {
+   "Region": " Chad",
+   "Lat": 15.4542,
+   "Long": 18.7322,
+   "deaths": 152,
+   "confirmed": 4274
+ },
+ {
+   "Region": " Chile",
+   "Lat": -35.6751,
+   "Long": -71.543,
+   "deaths": 21451,
+   "confirmed": 879485
+ },
+ {
+   "Region": "Anhui China",
+   "Lat": 31.8257,
+   "Long": 117.2264,
+   "deaths": 6,
+   "confirmed": 994
+ },
+ {
+   "Region": "Beijing China",
+   "Lat": 40.1824,
+   "Long": 116.4142,
+   "deaths": 9,
+   "confirmed": 1049
+ },
+ {
+   "Region": "Chongqing China",
+   "Lat": 30.0572,
+   "Long": 107.874,
+   "deaths": 6,
+   "confirmed": 591
+ },
+ {
+   "Region": "Fujian China",
+   "Lat": 26.0789,
+   "Long": 117.9874,
+   "deaths": 1,
+   "confirmed": 553
+ },
+ {
+   "Region": "Gansu China",
+   "Lat": 35.7518,
+   "Long": 104.2861,
+   "deaths": 2,
+   "confirmed": 187
+ },
+ {
+   "Region": "Guangdong China",
+   "Lat": 23.3417,
+   "Long": 113.4244,
+   "deaths": 8,
+   "confirmed": 2243
+ },
+ {
+   "Region": "Guangxi China",
+   "Lat": 23.8298,
+   "Long": 108.7881,
+   "deaths": 2,
+   "confirmed": 267
+ },
+ {
+   "Region": "Guizhou China",
+   "Lat": 26.8154,
+   "Long": 106.8748,
+   "deaths": 2,
+   "confirmed": 147
+ },
+ {
+   "Region": "Hainan China",
+   "Lat": 19.1959,
+   "Long": 109.7453,
+   "deaths": 6,
+   "confirmed": 171
+ },
+ {
+   "Region": "Hebei China",
+   "Lat": 39.549,
+   "Long": 116.1306,
+   "deaths": 7,
+   "confirmed": 1317
+ },
+ {
+   "Region": "Heilongjiang China",
+   "Lat": 47.862,
+   "Long": 127.7615,
+   "deaths": 13,
+   "confirmed": 1610
+ },
+ {
+   "Region": "Henan China",
+   "Lat": 37.8957,
+   "Long": 114.9042,
+   "deaths": 22,
+   "confirmed": 1309
+ },
+ {
+   "Region": "Hong Kong China",
+   "Lat": 22.3,
+   "Long": 114.2,
+   "deaths": 203,
+   "confirmed": 11210
+ },
+ {
+   "Region": "Hubei China",
+   "Lat": 30.9756,
+   "Long": 112.2707,
+   "deaths": 4512,
+   "confirmed": 68151
+ },
+ {
+   "Region": "Hunan China",
+   "Lat": 27.6104,
+   "Long": 111.7088,
+   "deaths": 4,
+   "confirmed": 1038
+ },
+ {
+   "Region": "Inner Mongolia China",
+   "Lat": 44.0935,
+   "Long": 113.9448,
+   "deaths": 1,
+   "confirmed": 368
+ },
+ {
+   "Region": "Jiangsu China",
+   "Lat": 32.9711,
+   "Long": 119.455,
+   "deaths": 0,
+   "confirmed": 705
+ },
+ {
+   "Region": "Jiangxi China",
+   "Lat": 27.614,
+   "Long": 115.7221,
+   "deaths": 1,
+   "confirmed": 935
+ },
+ {
+   "Region": "Jilin China",
+   "Lat": 43.6661,
+   "Long": 126.1923,
+   "deaths": 3,
+   "confirmed": 573
+ },
+ {
+   "Region": "Liaoning China",
+   "Lat": 41.2956,
+   "Long": 122.6085,
+   "deaths": 2,
+   "confirmed": 406
+ },
+ {
+   "Region": "Macau China",
+   "Lat": 22.1667,
+   "Long": 113.55,
+   "deaths": 0,
+   "confirmed": 48
+ },
+ {
+   "Region": "Ningxia China",
+   "Lat": 37.2692,
+   "Long": 106.1655,
+   "deaths": 0,
+   "confirmed": 75
+ },
+ {
+   "Region": "Qinghai China",
+   "Lat": 35.7452,
+   "Long": 95.9956,
+   "deaths": 0,
+   "confirmed": 18
+ },
+ {
+   "Region": "Shaanxi China",
+   "Lat": 35.1917,
+   "Long": 108.8701,
+   "deaths": 3,
+   "confirmed": 559
+ },
+ {
+   "Region": "Shandong China",
+   "Lat": 36.3427,
+   "Long": 118.1498,
+   "deaths": 7,
+   "confirmed": 869
+ },
+ {
+   "Region": "Shanghai China",
+   "Lat": 31.202,
+   "Long": 121.4491,
+   "deaths": 7,
+   "confirmed": 1830
+ },
+ {
+   "Region": "Shanxi China",
+   "Lat": 37.5777,
+   "Long": 112.2922,
+   "deaths": 0,
+   "confirmed": 241
+ },
+ {
+   "Region": "Sichuan China",
+   "Lat": 30.6171,
+   "Long": 102.7103,
+   "deaths": 3,
+   "confirmed": 929
+ },
+ {
+   "Region": "Tianjin China",
+   "Lat": 39.3054,
+   "Long": 117.323,
+   "deaths": 3,
+   "confirmed": 362
+ },
+ {
+   "Region": "Tibet China",
+   "Lat": 31.6927,
+   "Long": 88.0924,
+   "deaths": 0,
+   "confirmed": 1
+ },
+ {
+   "Region": "Xinjiang China",
+   "Lat": 41.1129,
+   "Long": 85.2401,
+   "deaths": 3,
+   "confirmed": 980
+ },
+ {
+   "Region": "Yunnan China",
+   "Lat": 24.974,
+   "Long": 101.487,
+   "deaths": 2,
+   "confirmed": 234
+ },
+ {
+   "Region": "Zhejiang China",
+   "Lat": 29.1832,
+   "Long": 120.0934,
+   "deaths": 1,
+   "confirmed": 1322
+ },
+ {
+   "Region": " Colombia",
+   "Lat": 4.5709,
+   "Long": -74.2973,
+   "deaths": 60950,
+   "confirmed": 2294617
+ },
+ {
+   "Region": " Comoros",
+   "Lat": -11.6455,
+   "Long": 43.3333,
+   "deaths": 146,
+   "confirmed": 3618
+ },
+ {
+   "Region": " Congo (Brazzaville)",
+   "Lat": -0.228,
+   "Long": 15.8277,
+   "deaths": 131,
+   "confirmed": 9329
+ },
+ {
+   "Region": " Congo (Kinshasa)",
+   "Lat": -4.0383,
+   "Long": 21.7587,
+   "deaths": 712,
+   "confirmed": 26846
+ },
+ {
+   "Region": " Costa Rica",
+   "Lat": 9.7489,
+   "Long": -83.7534,
+   "deaths": 2862,
+   "confirmed": 209093
+ },
+ {
+   "Region": " Cote d'Ivoire",
+   "Lat": 7.54,
+   "Long": -5.5471,
+   "deaths": 211,
+   "confirmed": 36824
+ },
+ {
+   "Region": " Croatia",
+   "Lat": 45.1,
+   "Long": 15.2,
+   "deaths": 5647,
+   "confirmed": 249661
+ },
+ {
+   "Region": " Cuba",
+   "Lat": 21.521757,
+   "Long": -77.781167,
+   "deaths": 365,
+   "confirmed": 59919
+ },
+ {
+   "Region": " Cyprus",
+   "Lat": 35.1264,
+   "Long": 33.4299,
+   "deaths": 238,
+   "confirmed": 38879
+ },
+ {
+   "Region": " Czechia",
+   "Lat": 49.8175,
+   "Long": 15.473,
+   "deaths": 22865,
+   "confirmed": 1376998
+ },
+ {
+   "Region": "Faroe Islands Denmark",
+   "Lat": 61.8926,
+   "Long": -6.9118,
+   "deaths": 1,
+   "confirmed": 660
+ },
+ {
+   "Region": "Greenland Denmark",
+   "Lat": 71.7069,
+   "Long": -42.6043,
+   "deaths": 0,
+   "confirmed": 31
+ },
+ {
+   "Region": " Denmark",
+   "Lat": 56.2639,
+   "Long": 9.5018,
+   "deaths": 2387,
+   "confirmed": 219305
+ },
+ {
+   "Region": " Diamond Princess",
+   "Lat": 0,
+   "Long": 0,
+   "deaths": 13,
+   "confirmed": 712
+ },
+ {
+   "Region": " Djibouti",
+   "Lat": 11.8251,
+   "Long": 42.5903,
+   "deaths": 63,
+   "confirmed": 6236
+ },
+ {
+   "Region": " Dominica",
+   "Lat": 15.415,
+   "Long": -61.371,
+   "deaths": 0,
+   "confirmed": 156
+ },
+ {
+   "Region": " Dominican Republic",
+   "Lat": 18.7357,
+   "Long": -70.1627,
+   "deaths": 3213,
+   "confirmed": 245452
+ },
+ {
+   "Region": " Ecuador",
+   "Lat": -1.8312,
+   "Long": -78.1834,
+   "deaths": 16193,
+   "confirmed": 299216
+ },
+ {
+   "Region": " Egypt",
+   "Lat": 26.820553,
+   "Long": 30.802498,
+   "deaths": 11214,
+   "confirmed": 189639
+ },
+ {
+   "Region": " El Salvador",
+   "Lat": 13.7942,
+   "Long": -88.8965,
+   "deaths": 1940,
+   "confirmed": 61947
+ },
+ {
+   "Region": " Equatorial Guinea",
+   "Lat": 1.6508,
+   "Long": 10.2679,
+   "deaths": 98,
+   "confirmed": 6456
+ },
+ {
+   "Region": " Eritrea",
+   "Lat": 15.1794,
+   "Long": 39.7823,
+   "deaths": 7,
+   "confirmed": 3038
+ },
+ {
+   "Region": " Estonia",
+   "Lat": 58.5953,
+   "Long": 25.0136,
+   "deaths": 695,
+   "confirmed": 82286
+ },
+ {
+   "Region": " Eswatini",
+   "Lat": -26.5225,
+   "Long": 31.4659,
+   "deaths": 659,
+   "confirmed": 17225
+ },
+ {
+   "Region": " Ethiopia",
+   "Lat": 9.145,
+   "Long": 40.4897,
+   "deaths": 2510,
+   "confirmed": 172571
+ },
+ {
+   "Region": " Fiji",
+   "Lat": -17.7134,
+   "Long": 178.065,
+   "deaths": 2,
+   "confirmed": 66
+ },
+ {
+   "Region": " Finland",
+   "Lat": 61.92411,
+   "Long": 25.748151,
+   "deaths": 786,
+   "confirmed": 65315
+ },
+ {
+   "Region": "French Guiana France",
+   "Lat": 3.9339,
+   "Long": -53.1258,
+   "deaths": 87,
+   "confirmed": 16693
+ },
+ {
+   "Region": "French Polynesia France",
+   "Lat": -17.6797,
+   "Long": 149.4068,
+   "deaths": 141,
+   "confirmed": 18527
+ },
+ {
+   "Region": "Guadeloupe France",
+   "Lat": 16.265,
+   "Long": -61.551,
+   "deaths": 168,
+   "confirmed": 10458
+ },
+ {
+   "Region": "Martinique France",
+   "Lat": 14.6415,
+   "Long": -61.0242,
+   "deaths": 47,
+   "confirmed": 6886
+ },
+ {
+   "Region": "Mayotte France",
+   "Lat": -12.8275,
+   "Long": 45.166244,
+   "deaths": 129,
+   "confirmed": 18604
+ },
+ {
+   "Region": "New Caledonia France",
+   "Lat": -20.904305,
+   "Long": 165.618042,
+   "deaths": 0,
+   "confirmed": 88
+ },
+ {
+   "Region": "Reunion France",
+   "Lat": -21.1151,
+   "Long": 55.5364,
+   "deaths": 71,
+   "confirmed": 13801
+ },
+ {
+   "Region": "Saint Barthelemy France",
+   "Lat": 17.9,
+   "Long": -62.8333,
+   "deaths": 1,
+   "confirmed": 712
+ },
+ {
+   "Region": "Saint Pierre and Miquelon France",
+   "Lat": 46.8852,
+   "Long": -56.3159,
+   "deaths": 0,
+   "confirmed": 24
+ },
+ {
+   "Region": "St Martin France",
+   "Lat": 18.0708,
+   "Long": -63.0501,
+   "deaths": 12,
+   "confirmed": 1602
+ },
+ {
+   "Region": "Wallis and Futuna France",
+   "Lat": -14.2938,
+   "Long": -178.1165,
+   "deaths": 0,
+   "confirmed": 146
+ },
+ {
+   "Region": " France",
+   "Lat": 46.2276,
+   "Long": 2.2137,
+   "deaths": 89551,
+   "confirmed": 3988194
+ },
+ {
+   "Region": " Gabon",
+   "Lat": -0.8037,
+   "Long": 11.6094,
+   "deaths": 96,
+   "confirmed": 16660
+ },
+ {
+   "Region": " Gambia",
+   "Lat": 13.4432,
+   "Long": -15.3101,
+   "deaths": 153,
+   "confirmed": 4939
+ },
+ {
+   "Region": " Georgia",
+   "Lat": 42.3154,
+   "Long": 43.3569,
+   "deaths": 3634,
+   "confirmed": 274377
+ },
+ {
+   "Region": " Germany",
+   "Lat": 51.165691,
+   "Long": 10.451526,
+   "deaths": 73348,
+   "confirmed": 2559296
+ },
+ {
+   "Region": " Ghana",
+   "Lat": 7.9465,
+   "Long": -1.0232,
+   "deaths": 656,
+   "confirmed": 86737
+ },
+ {
+   "Region": " Greece",
+   "Lat": 39.0742,
+   "Long": 21.8243,
+   "deaths": 6986,
+   "confirmed": 217018
+ },
+ {
+   "Region": " Grenada",
+   "Lat": 12.1165,
+   "Long": -61.679,
+   "deaths": 1,
+   "confirmed": 148
+ },
+ {
+   "Region": " Guatemala",
+   "Lat": 15.7835,
+   "Long": -90.2308,
+   "deaths": 6546,
+   "confirmed": 181974
+ },
+ {
+   "Region": " Guinea",
+   "Lat": 9.9456,
+   "Long": -9.6966,
+   "deaths": 102,
+   "confirmed": 17592
+ },
+ {
+   "Region": " Guinea-Bissau",
+   "Lat": 11.8037,
+   "Long": -15.1804,
+   "deaths": 52,
+   "confirmed": 3398
+ },
+ {
+   "Region": " Guyana",
+   "Lat": 4.860416,
+   "Long": -58.93018,
+   "deaths": 206,
+   "confirmed": 9069
+ },
+ {
+   "Region": " Haiti",
+   "Lat": 18.9712,
+   "Long": -72.2852,
+   "deaths": 251,
+   "confirmed": 12632
+ },
+ {
+   "Region": " Holy See",
+   "Lat": 41.9029,
+   "Long": 12.4534,
+   "deaths": 0,
+   "confirmed": 27
+ },
+ {
+   "Region": " Honduras",
+   "Lat": 15.2,
+   "Long": -86.2419,
+   "deaths": 4325,
+   "confirmed": 177168
+ },
+ {
+   "Region": " Hungary",
+   "Lat": 47.1625,
+   "Long": 19.5033,
+   "deaths": 16627,
+   "confirmed": 498183
+ },
+ {
+   "Region": " Iceland",
+   "Lat": 64.9631,
+   "Long": -19.0208,
+   "deaths": 29,
+   "confirmed": 6072
+ },
+ {
+   "Region": " India",
+   "Lat": 20.593684,
+   "Long": 78.96288,
+   "deaths": 158446,
+   "confirmed": 11333728
+ },
+ {
+   "Region": " Indonesia",
+   "Lat": -0.7893,
+   "Long": 113.9213,
+   "deaths": 38229,
+   "confirmed": 1410134
+ },
+ {
+   "Region": " Iran",
+   "Lat": 32.427908,
+   "Long": 53.688046,
+   "deaths": 61069,
+   "confirmed": 1731558
+ },
+ {
+   "Region": " Iraq",
+   "Lat": 33.223191,
+   "Long": 43.679291,
+   "deaths": 13696,
+   "confirmed": 750264
+ },
+ {
+   "Region": " Ireland",
+   "Lat": 53.1424,
+   "Long": -7.6921,
+   "deaths": 4518,
+   "confirmed": 225820
+ },
+ {
+   "Region": " Israel",
+   "Lat": 31.046051,
+   "Long": 34.851612,
+   "deaths": 5980,
+   "confirmed": 816198
+ },
+ {
+   "Region": " Italy",
+   "Lat": 41.87194,
+   "Long": 12.56738,
+   "deaths": 101564,
+   "confirmed": 3175807
+ },
+ {
+   "Region": " Jamaica",
+   "Lat": 18.1096,
+   "Long": -77.2975,
+   "deaths": 480,
+   "confirmed": 29387
+ },
+ {
+   "Region": " Japan",
+   "Lat": 36.204824,
+   "Long": 138.252924,
+   "deaths": 8515,
+   "confirmed": 444977
+ },
+ {
+   "Region": " Jordan",
+   "Lat": 31.24,
+   "Long": 36.51,
+   "deaths": 5224,
+   "confirmed": 464856
+ },
+ {
+   "Region": " Kazakhstan",
+   "Lat": 48.0196,
+   "Long": 66.9237,
+   "deaths": 3192,
+   "confirmed": 272365
+ },
+ {
+   "Region": " Kenya",
+   "Lat": -0.0236,
+   "Long": 37.9062,
+   "deaths": 1901,
+   "confirmed": 111935
+ },
+ {
+   "Region": " Korea, South",
+   "Lat": 35.907757,
+   "Long": 127.766922,
+   "deaths": 1667,
+   "confirmed": 95176
+ },
+ {
+   "Region": " Kosovo",
+   "Lat": 42.602636,
+   "Long": 20.902977,
+   "deaths": 1688,
+   "confirmed": 76070
+ },
+ {
+   "Region": " Kuwait",
+   "Lat": 29.31166,
+   "Long": 47.481766,
+   "deaths": 1156,
+   "confirmed": 207249
+ },
+ {
+   "Region": " Kyrgyzstan",
+   "Lat": 41.20438,
+   "Long": 74.766098,
+   "deaths": 1480,
+   "confirmed": 86818
+ },
+ {
+   "Region": " Laos",
+   "Lat": 19.85627,
+   "Long": 102.495496,
+   "deaths": 0,
+   "confirmed": 48
+ },
+ {
+   "Region": " Latvia",
+   "Lat": 56.8796,
+   "Long": 24.6032,
+   "deaths": 1746,
+   "confirmed": 92906
+ },
+ {
+   "Region": " Lebanon",
+   "Lat": 33.8547,
+   "Long": 35.8623,
+   "deaths": 5278,
+   "confirmed": 411839
+ },
+ {
+   "Region": " Lesotho",
+   "Lat": -29.61,
+   "Long": 28.2336,
+   "deaths": 309,
+   "confirmed": 10528
+ },
+ {
+   "Region": " Liberia",
+   "Lat": 6.428055,
+   "Long": -9.429499,
+   "deaths": 85,
+   "confirmed": 2030
+ },
+ {
+   "Region": " Libya",
+   "Lat": 26.3351,
+   "Long": 17.228331,
+   "deaths": 2348,
+   "confirmed": 143643
+ },
+ {
+   "Region": " Liechtenstein",
+   "Lat": 47.14,
+   "Long": 9.55,
+   "deaths": 55,
+   "confirmed": 2601
+ },
+ {
+   "Region": " Lithuania",
+   "Lat": 55.1694,
+   "Long": 23.8813,
+   "deaths": 3373,
+   "confirmed": 204356
+ },
+ {
+   "Region": " Luxembourg",
+   "Lat": 49.8153,
+   "Long": 6.1296,
+   "deaths": 681,
+   "confirmed": 57503
+ },
+ {
+   "Region": " MS Zaandam",
+   "Lat": 0,
+   "Long": 0,
+   "deaths": 2,
+   "confirmed": 9
+ },
+ {
+   "Region": " Madagascar",
+   "Lat": -18.766947,
+   "Long": 46.869107,
+   "deaths": 300,
+   "confirmed": 20155
+ },
+ {
+   "Region": " Malawi",
+   "Lat": -13.2543,
+   "Long": 34.3015,
+   "deaths": 1079,
+   "confirmed": 32746
+ },
+ {
+   "Region": " Malaysia",
+   "Lat": 4.210484,
+   "Long": 101.975766,
+   "deaths": 1203,
+   "confirmed": 320939
+ },
+ {
+   "Region": " Maldives",
+   "Lat": 3.2028,
+   "Long": 73.2207,
+   "deaths": 64,
+   "confirmed": 21382
+ },
+ {
+   "Region": " Mali",
+   "Lat": 17.570692,
+   "Long": -3.996166,
+   "deaths": 360,
+   "confirmed": 8813
+ },
+ {
+   "Region": " Malta",
+   "Lat": 35.9375,
+   "Long": 14.3754,
+   "deaths": 346,
+   "confirmed": 25969
+ },
+ {
+   "Region": " Marshall Islands",
+   "Lat": 7.1315,
+   "Long": 171.1845,
+   "deaths": 0,
+   "confirmed": 4
+ },
+ {
+   "Region": " Mauritania",
+   "Lat": 21.0079,
+   "Long": -10.9408,
+   "deaths": 442,
+   "confirmed": 17410
+ },
+ {
+   "Region": " Mauritius",
+   "Lat": -20.348404,
+   "Long": 57.552152,
+   "deaths": 10,
+   "confirmed": 711
+ },
+ {
+   "Region": " Mexico",
+   "Lat": 23.6345,
+   "Long": -102.5528,
+   "deaths": 193851,
+   "confirmed": 2157771
+ },
+ {
+   "Region": " Micronesia",
+   "Lat": 7.4256,
+   "Long": 150.5508,
+   "deaths": 0,
+   "confirmed": 1
+ },
+ {
+   "Region": " Moldova",
+   "Lat": 47.4116,
+   "Long": 28.3699,
+   "deaths": 4258,
+   "confirmed": 201909
+ },
+ {
+   "Region": " Monaco",
+   "Lat": 43.7333,
+   "Long": 7.4167,
+   "deaths": 27,
+   "confirmed": 2097
+ },
+ {
+   "Region": " Mongolia",
+   "Lat": 46.8625,
+   "Long": 103.8467,
+   "deaths": 4,
+   "confirmed": 3833
+ },
+ {
+   "Region": " Montenegro",
+   "Lat": 42.708678,
+   "Long": 19.37439,
+   "deaths": 1117,
+   "confirmed": 82610
+ },
+ {
+   "Region": " Morocco",
+   "Lat": 31.7917,
+   "Long": -7.0926,
+   "deaths": 8716,
+   "confirmed": 488181
+ },
+ {
+   "Region": " Mozambique",
+   "Lat": -18.665695,
+   "Long": 35.529562,
+   "deaths": 719,
+   "confirmed": 64004
+ },
+ {
+   "Region": " Namibia",
+   "Lat": -22.9576,
+   "Long": 18.4904,
+   "deaths": 456,
+   "confirmed": 40810
+ },
+ {
+   "Region": " Nepal",
+   "Lat": 28.1667,
+   "Long": 84.25,
+   "deaths": 3012,
+   "confirmed": 275118
+ },
+ {
+   "Region": "Aruba Netherlands",
+   "Lat": 12.5211,
+   "Long": -69.9683,
+   "deaths": 77,
+   "confirmed": 8320
+ },
+ {
+   "Region": "Bonaire, Sint Eustatius and Saba Netherlands",
+   "Lat": 12.1784,
+   "Long": -68.2385,
+   "deaths": 3,
+   "confirmed": 196
+ },
+ {
+   "Region": "Curacao Netherlands",
+   "Lat": 12.1696,
+   "Long": -68.99,
+   "deaths": 22,
+   "confirmed": 4960
+ },
+ {
+   "Region": "Sint Maarten Netherlands",
+   "Lat": 18.0425,
+   "Long": -63.0548,
+   "deaths": 27,
+   "confirmed": 2082
+ },
+ {
+   "Region": " Netherlands",
+   "Lat": 52.1326,
+   "Long": 5.2913,
+   "deaths": 16024,
+   "confirmed": 1144822
+ },
+ {
+   "Region": " New Zealand",
+   "Lat": -40.9006,
+   "Long": 174.886,
+   "deaths": 26,
+   "confirmed": 2422
+ },
+ {
+   "Region": " Nicaragua",
+   "Lat": 12.865416,
+   "Long": -85.207229,
+   "deaths": 175,
+   "confirmed": 6537
+ },
+ {
+   "Region": " Niger",
+   "Lat": 17.607789,
+   "Long": 8.081666,
+   "deaths": 180,
+   "confirmed": 4853
+ },
+ {
+   "Region": " Nigeria",
+   "Lat": 9.082,
+   "Long": 8.6753,
+   "deaths": 2009,
+   "confirmed": 160332
+ },
+ {
+   "Region": " North Macedonia",
+   "Lat": 41.6086,
+   "Long": 21.7453,
+   "deaths": 3280,
+   "confirmed": 111077
+ },
+ {
+   "Region": " Norway",
+   "Lat": 60.472,
+   "Long": 8.4689,
+   "deaths": 639,
+   "confirmed": 78946
+ },
+ {
+   "Region": " Oman",
+   "Lat": 21.512583,
+   "Long": 55.923255,
+   "deaths": 1600,
+   "confirmed": 145257
+ },
+ {
+   "Region": " Pakistan",
+   "Lat": 30.3753,
+   "Long": 69.3451,
+   "deaths": 13476,
+   "confirmed": 602536
+ },
+ {
+   "Region": " Panama",
+   "Lat": 8.538,
+   "Long": -80.7821,
+   "deaths": 5981,
+   "confirmed": 347226
+ },
+ {
+   "Region": " Papua New Guinea",
+   "Lat": -6.314993,
+   "Long": 143.95555,
+   "deaths": 21,
+   "confirmed": 1819
+ },
+ {
+   "Region": " Paraguay",
+   "Lat": -23.4425,
+   "Long": -58.4438,
+   "deaths": 3436,
+   "confirmed": 177593
+ },
+ {
+   "Region": " Peru",
+   "Lat": -9.19,
+   "Long": -75.0152,
+   "deaths": 48484,
+   "confirmed": 1394571
+ },
+ {
+   "Region": " Philippines",
+   "Lat": 12.879721,
+   "Long": 121.774017,
+   "deaths": 12694,
+   "confirmed": 611618
+ },
+ {
+   "Region": " Poland",
+   "Lat": 51.9194,
+   "Long": 19.1451,
+   "deaths": 46724,
+   "confirmed": 1868297
+ },
+ {
+   "Region": " Portugal",
+   "Lat": 39.3999,
+   "Long": -8.2245,
+   "deaths": 16650,
+   "confirmed": 813152
+ },
+ {
+   "Region": " Qatar",
+   "Lat": 25.3548,
+   "Long": 51.1839,
+   "deaths": 265,
+   "confirmed": 169284
+ },
+ {
+   "Region": " Romania",
+   "Lat": 45.9432,
+   "Long": 24.9668,
+   "deaths": 21360,
+   "confirmed": 850362
+ },
+ {
+   "Region": " Russia",
+   "Lat": 61.52401,
+   "Long": 105.318756,
+   "deaths": 89701,
+   "confirmed": 4321588
+ },
+ {
+   "Region": " Rwanda",
+   "Lat": -1.9403,
+   "Long": 29.8739,
+   "deaths": 275,
+   "confirmed": 20057
+ },
+ {
+   "Region": " Saint Kitts and Nevis",
+   "Lat": 17.357822,
+   "Long": -62.782998,
+   "deaths": 0,
+   "confirmed": 42
+ },
+ {
+   "Region": " Saint Lucia",
+   "Lat": 13.9094,
+   "Long": -60.9789,
+   "deaths": 48,
+   "confirmed": 3989
+ },
+ {
+   "Region": " Saint Vincent and the Grenadines",
+   "Lat": 12.9843,
+   "Long": -61.2872,
+   "deaths": 8,
+   "confirmed": 1674
+ },
+ {
+   "Region": " Samoa",
+   "Lat": -13.759,
+   "Long": -172.1046,
+   "deaths": 0,
+   "confirmed": 3
+ },
+ {
+   "Region": " San Marino",
+   "Lat": 43.9424,
+   "Long": 12.4578,
+   "deaths": 77,
+   "confirmed": 4096
+ },
+ {
+   "Region": " Sao Tome and Principe",
+   "Lat": 0.1864,
+   "Long": 6.6131,
+   "deaths": 32,
+   "confirmed": 2057
+ },
+ {
+   "Region": " Saudi Arabia",
+   "Lat": 23.885942,
+   "Long": 45.079162,
+   "deaths": 6556,
+   "confirmed": 381708
+ },
+ {
+   "Region": " Senegal",
+   "Lat": 14.4974,
+   "Long": -14.4524,
+   "deaths": 951,
+   "confirmed": 36569
+ },
+ {
+   "Region": " Serbia",
+   "Lat": 44.0165,
+   "Long": 21.0059,
+   "deaths": 4670,
+   "confirmed": 507959
+ },
+ {
+   "Region": " Seychelles",
+   "Lat": -4.6796,
+   "Long": 55.492,
+   "deaths": 16,
+   "confirmed": 3173
+ },
+ {
+   "Region": " Sierra Leone",
+   "Lat": 8.460555,
+   "Long": -11.779889,
+   "deaths": 79,
+   "confirmed": 3934
+ },
+ {
+   "Region": " Singapore",
+   "Lat": 1.2833,
+   "Long": 103.8333,
+   "deaths": 29,
+   "confirmed": 60080
+ },
+ {
+   "Region": " Slovakia",
+   "Lat": 48.669,
+   "Long": 19.699,
+   "deaths": 8346,
+   "confirmed": 333872
+ },
+ {
+   "Region": " Slovenia",
+   "Lat": 46.1512,
+   "Long": 14.9955,
+   "deaths": 3926,
+   "confirmed": 199004
+ },
+ {
+   "Region": " Solomon Islands",
+   "Lat": -9.6457,
+   "Long": 160.1562,
+   "deaths": 0,
+   "confirmed": 18
+ },
+ {
+   "Region": " Somalia",
+   "Lat": 5.152149,
+   "Long": 46.199616,
+   "deaths": 338,
+   "confirmed": 8820
+ },
+ {
+   "Region": " South Africa",
+   "Lat": -30.5595,
+   "Long": 22.9375,
+   "deaths": 51179,
+   "confirmed": 1526873
+ },
+ {
+   "Region": " South Sudan",
+   "Lat": 6.877,
+   "Long": 31.307,
+   "deaths": 104,
+   "confirmed": 9334
+ },
+ {
+   "Region": " Spain",
+   "Lat": 40.463667,
+   "Long": -3.74922,
+   "deaths": 72258,
+   "confirmed": 3183704
+ },
+ {
+   "Region": " Sri Lanka",
+   "Lat": 7.873054,
+   "Long": 80.771797,
+   "deaths": 525,
+   "confirmed": 87286
+ },
+ {
+   "Region": " Sudan",
+   "Lat": 12.8628,
+   "Long": 30.2176,
+   "deaths": 1940,
+   "confirmed": 30873
+ },
+ {
+   "Region": " Suriname",
+   "Lat": 3.9193,
+   "Long": -56.0278,
+   "deaths": 176,
+   "confirmed": 9012
+ },
+ {
+   "Region": " Sweden",
+   "Lat": 60.128161,
+   "Long": 18.643501,
+   "deaths": 13146,
+   "confirmed": 712527
+ },
+ {
+   "Region": " Switzerland",
+   "Lat": 46.8182,
+   "Long": 8.2275,
+   "deaths": 10104,
+   "confirmed": 570645
+ },
+ {
+   "Region": " Syria",
+   "Lat": 34.802075,
+   "Long": 38.996815,
+   "deaths": 1090,
+   "confirmed": 16328
+ },
+ {
+   "Region": " Taiwan*",
+   "Lat": 23.7,
+   "Long": 121,
+   "deaths": 10,
+   "confirmed": 984
+ },
+ {
+   "Region": " Tajikistan",
+   "Lat": 38.861,
+   "Long": 71.2761,
+   "deaths": 90,
+   "confirmed": 13308
+ },
+ {
+   "Region": " Tanzania",
+   "Lat": -6.369028,
+   "Long": 34.888822,
+   "deaths": 21,
+   "confirmed": 509
+ },
+ {
+   "Region": " Thailand",
+   "Lat": 15.870032,
+   "Long": 100.992541,
+   "deaths": 85,
+   "confirmed": 26679
+ },
+ {
+   "Region": " Timor-Leste",
+   "Lat": -8.874217,
+   "Long": 125.727539,
+   "deaths": 0,
+   "confirmed": 170
+ },
+ {
+   "Region": " Togo",
+   "Lat": 8.6195,
+   "Long": 0.8248,
+   "deaths": 93,
+   "confirmed": 7953
+ },
+ {
+   "Region": " Trinidad and Tobago",
+   "Lat": 10.6918,
+   "Long": -61.2225,
+   "deaths": 140,
+   "confirmed": 7759
+ },
+ {
+   "Region": " Tunisia",
+   "Lat": 33.886917,
+   "Long": 9.537499,
+   "deaths": 8329,
+   "confirmed": 240617
+ },
+ {
+   "Region": " Turkey",
+   "Lat": 38.9637,
+   "Long": 35.2433,
+   "deaths": 29356,
+   "confirmed": 2850930
+ },
+ {
+   "Region": " US",
+   "Lat": 40,
+   "Long": -100,
+   "deaths": 532590,
+   "confirmed": 29347338
+ },
+ {
+   "Region": " Uganda",
+   "Lat": 1.373333,
+   "Long": 32.290275,
+   "deaths": 334,
+   "confirmed": 40544
+ },
+ {
+   "Region": " Ukraine",
+   "Lat": 48.3794,
+   "Long": 31.1656,
+   "deaths": 29434,
+   "confirmed": 1487497
+ },
+ {
+   "Region": " United Arab Emirates",
+   "Lat": 23.424076,
+   "Long": 53.847818,
+   "deaths": 1378,
+   "confirmed": 422246
+ },
+ {
+   "Region": "Anguilla United Kingdom",
+   "Lat": 18.2206,
+   "Long": -63.0686,
+   "deaths": 0,
+   "confirmed": 18
+ },
+ {
+   "Region": "Bermuda United Kingdom",
+   "Lat": 32.3078,
+   "Long": -64.7505,
+   "deaths": 12,
+   "confirmed": 732
+ },
+ {
+   "Region": "British Virgin Islands United Kingdom",
+   "Lat": 18.4207,
+   "Long": -64.64,
+   "deaths": 1,
+   "confirmed": 153
+ },
+ {
+   "Region": "Cayman Islands United Kingdom",
+   "Lat": 19.3133,
+   "Long": -81.2546,
+   "deaths": 2,
+   "confirmed": 468
+ },
+ {
+   "Region": "Channel Islands United Kingdom",
+   "Lat": 49.3723,
+   "Long": -2.3644,
+   "deaths": 86,
+   "confirmed": 4043
+ },
+ {
+   "Region": "Falkland Islands (Malvinas) United Kingdom",
+   "Lat": -51.7963,
+   "Long": -59.5236,
+   "deaths": 0,
+   "confirmed": 54
+ },
+ {
+   "Region": "Gibraltar United Kingdom",
+   "Lat": 36.1408,
+   "Long": -5.3536,
+   "deaths": 93,
+   "confirmed": 4263
+ },
+ {
+   "Region": "Isle of Man United Kingdom",
+   "Lat": 54.2361,
+   "Long": -4.5481,
+   "deaths": 26,
+   "confirmed": 1157
+ },
+ {
+   "Region": "Montserrat United Kingdom",
+   "Lat": 16.742498,
+   "Long": -62.187366,
+   "deaths": 1,
+   "confirmed": 20
+ },
+ {
+   "Region": "Saint Helena, Ascension and Tristan da Cunha United Kingdom",
+   "Lat": -7.9467,
+   "Long": -14.3559,
+   "deaths": 0,
+   "confirmed": 4
+ },
+ {
+   "Region": "Turks and Caicos Islands United Kingdom",
+   "Lat": 21.694,
+   "Long": -71.7979,
+   "deaths": 15,
+   "confirmed": 2200
+ },
+ {
+   "Region": " United Kingdom",
+   "Lat": 55.3781,
+   "Long": -3.436,
+   "deaths": 125343,
+   "confirmed": 4248286
+ },
+ {
+   "Region": " Uruguay",
+   "Lat": -32.5228,
+   "Long": -55.7658,
+   "deaths": 689,
+   "confirmed": 69074
+ },
+ {
+   "Region": " Uzbekistan",
+   "Lat": 41.377491,
+   "Long": 64.585262,
+   "deaths": 622,
+   "confirmed": 80392
+ },
+ {
+   "Region": " Vanuatu",
+   "Lat": -15.3767,
+   "Long": 166.9592,
+   "deaths": 0,
+   "confirmed": 3
+ },
+ {
+   "Region": " Venezuela",
+   "Lat": 6.4238,
+   "Long": -66.5897,
+   "deaths": 1422,
+   "confirmed": 144786
+ },
+ {
+   "Region": " Vietnam",
+   "Lat": 14.058324,
+   "Long": 108.277199,
+   "deaths": 35,
+   "confirmed": 2550
+ },
+ {
+   "Region": " West Bank and Gaza",
+   "Lat": 31.9522,
+   "Long": 35.2332,
+   "deaths": 2228,
+   "confirmed": 205652
+ },
+ {
+   "Region": " Yemen",
+   "Lat": 15.552727,
+   "Long": 48.516388,
+   "deaths": 679,
+   "confirmed": 2729
+ },
+ {
+   "Region": " Zambia",
+   "Lat": -13.133897,
+   "Long": 27.849332,
+   "deaths": 1149,
+   "confirmed": 84240
+ },
+ {
+   "Region": " Zimbabwe",
+   "Lat": -19.015438,
+   "Long": 29.154857,
+   "deaths": 1496,
+   "confirmed": 36423
+ }
+]
+}
