@@ -1,6 +1,7 @@
 ## SheHacks Hackathon Project
 
-Covi-safe
+##Covi-safe
+
 A One-stop solution for covid-19
 
 The problem Covi-safe solves
