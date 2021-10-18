@@ -4,7 +4,7 @@
 
 A One-stop solution for covid-19
 
-The problem Covi-safe solves
+## The problem Covi-safe solves
 It helps users decide if they are at risk of getting covid 19 infection and if yes it shows what steps can they safe. And if they have less probability then it motivates them to get vaccinated for better safety. It also shows map visulaization for the awareness of user related to the latest covid stats and wholesome user experience.
 
 
